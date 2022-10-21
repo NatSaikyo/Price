@@ -15,6 +15,8 @@
     padding-inline: 1.5rem;
     padding-block: 2rem;
     background: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .esquerda {
@@ -25,4 +27,56 @@
 .direita {
     background: var(--light-cyan);
     padding: 1.5rem;
+}
+
+.esquerda div p:first-child {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+    padding-right: 0.75rem;
+}
+
+.esquerda div p:last-child {
+    color: white;
+    opacity: 0.5;
+}
+
+.esquerda div {
+    display: flex;
+    margin-bottom: 0.25rem;
+    text-align: left;
+    align-items: center;
+}
+
+.esquerdap {
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button {
+    padding-block: 1rem;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.125;
+    border: none;
+    background: var(--bright-yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita {
+    background: var(--light-cyan);
+    padding: 1.5rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }
